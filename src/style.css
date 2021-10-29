@@ -1,0 +1,206 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 90px;
+  letter-spacing: -5px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top: -3px;
+}
+
+h5 {
+  font-weight: 100;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+h6 {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px 2px 0px 0px;
+  position: relative;
+  max-width: 630px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+button {
+  box-shadow: 5px 5px 10px rgba(29, 53, 48, 0.15);
+}
+
+input[type="text"],
+textarea {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #425e8a !important;
+}
+a {
+  text-decoration: none;
+  color: #212f45;
+}
+a:hover {
+  color: #425e8a;
+}
+
+.btn-outline-primary {
+  color: #212f45 !important;
+  border: 1px solid #374d6d !important;
+  box-shadow: 5px 5px 10px rgba(29, 53, 48, 0.15) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #212f45 !important;
+  border: 1px solid #374d6d !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  max-width: 300px;
+}
+
+.input-group {
+  position: relative;
+  left: 28%;
+  box-shadow: 5px 5px 10px rgba(29, 53, 48, 0.15);
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.card {
+  border-width: 2px;
+  border-color: #e7ebef;
+}
+
+.col-md-9 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  max-width: 650px;
+}
+
+.card-header {
+  background-color: #fff;
+  border: none;
+  padding: 20px 0px 0px 0px;
+}
+
+.card-body {
+  background-color: #fff;
+  color: #212f45;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  transition: all 150ms ease-in-out;
+  border: 1px solid #425e8a !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #212f45;
+}
+
+.input-group,
+.mb-3 {
+  width: 300px;
+}
+
+.card-title {
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.card-text {
+  margin: 0px;
+}
+
+.cityTitle {
+  position: relative;
+  top: -9px;
+}
+.smallText {
+  text-align: right;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+.fa-cloud-showers-heavy,
+.fa-cloud,
+.fa-cloud-sun,
+.fa-snowflake,
+.fa-wind,
+.fa-sun {
+  font-size: 30px;
+  padding: 10px 5px;
+  color: #fff;
+}
+
+.weatherContainer {
+  border-top: 1px solid rgba(0, 0, 0, 0.164);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.darkBlueWeather {
+  padding: 10px 0px;
+  background-color: #374d6d;
+}
+
+.weatherText {
+  color: #fff;
+}
+
+.tempContainer {
+  padding: 0;
+}
+
+.rightTemp {
+  position: relative;
+  right: 21%;
+  top: 19px;
+  padding: 0;
+}
+.tempText {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.formCity {
+  position: relative;
+  right: 14%;
+  top: 6px;
+}
+.col-4 {
+  padding: 0;
+}
+
+.smallBaseRight {
+  position: relative;
+  right: 10px;
+}
+
+.smallBaseLeft {
+  position: relative;
+  top: 18px;
+  left: -62px;
+}
+
+.cityBold {
+  font-weight: 600;
+}
