@@ -206,3 +206,9 @@ a:hover {
 .cityBold {
   font-weight: 600;
 }
+
+.gitHubLink {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
