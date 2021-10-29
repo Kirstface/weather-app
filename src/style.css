@@ -179,6 +179,8 @@ a:hover {
 .tempText {
   font-weight: 600;
   font-size: 14px;
+  right: 10%;
+  position: relative;
 }
 
 .formCity {
@@ -197,8 +199,8 @@ a:hover {
 
 .smallBaseLeft {
   position: relative;
-  top: 18px;
-  left: -62px;
+  top: 10px;
+  left: -56px;
 }
 
 .cityBold {
