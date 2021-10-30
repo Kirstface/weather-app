@@ -64,6 +64,7 @@ a:hover {
   color: #212f45 !important;
   border: 1px solid #374d6d !important;
   box-shadow: 5px 5px 10px rgba(29, 53, 48, 0.15) !important;
+  display: flex;
 }
 
 .btn-outline-primary:hover {
@@ -136,6 +137,10 @@ a:hover {
   width: 300px;
 }
 
+.card-titleTwo {
+  padding: 0px 0px 10px 0px;
+}
+
 .card-title {
   margin: 0px;
   text-transform: capitalize;
@@ -151,8 +156,8 @@ a:hover {
 }
 .smallText {
   text-align: right;
-  padding: 10px 0px;
-  margin: 0px;
+  padding: 0px;
+  margin-top: 14px;
 }
 
 .fa-cloud-showers-heavy,
@@ -207,19 +212,20 @@ a:hover {
   padding: 0;
 }
 
-.smallBaseRight {
-  position: relative;
-  right: 10px;
+.smallBaseFooter {
+  justify-content: flex-end !important;
+  padding: 20px 10px 10px 10px;
 }
 
-.smallBaseLeft {
-  position: relative;
-  top: 10px;
-  left: -59px;
+.getCurrent {
+  margin-top: 12px;
 }
 
 .cityBold {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #374d6d;
 }
 
 .footerLink {
@@ -235,7 +241,7 @@ a:hover {
   position: relative;
   line-height: 1;
   top: 18px;
-  left: -1px;
+  left: 7px;
 }
 
 .numberTemperature {
