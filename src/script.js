@@ -36,18 +36,26 @@ function searchCity(city) {
 
 function displayWeather(response) {
   //console.log(response.data);
+
+  let iconElement = document.querySelector("#icon-weather");
+
   document.querySelector("#city-title").innerHTML = response.data.name;
   findCelsiusTemperature = response.data.main.temp;
   document.querySelector("#main-number-temp").innerHTML = Math.round(
     response.data.main.temp
   );
   document.querySelector("#weather-description").innerHTML =
-    response.data.weather[0].description;
+    response.data.weather[0].main;
   document.querySelector("#wind-direction").innerHTML = Math.round(
     response.data.wind.speed
   );
   document.querySelector("#humid-levels").innerHTML =
     response.data.main.humidity;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function currentPosition(position) {

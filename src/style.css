@@ -254,3 +254,14 @@ a:hover {
   display: flex !important;
   margin-top: 1px;
 }
+
+.weatherIconLeft {
+  justify-content: flex-end !important;
+  display: flex !important;
+  line-height: 1;
+}
+
+.mainIcon {
+  margin-top: 3px;
+  margin-right: -58px;
+}
