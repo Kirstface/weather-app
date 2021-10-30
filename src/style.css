@@ -52,6 +52,14 @@ a:hover {
   color: #425e8a;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .btn-outline-primary {
   color: #212f45 !important;
   border: 1px solid #374d6d !important;
@@ -67,6 +75,12 @@ a:hover {
 
 .form-control {
   max-width: 300px;
+  background-color: #374d6d !important;
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff !important;
 }
 
 .input-group {
@@ -155,6 +169,7 @@ a:hover {
 .weatherContainer {
   border-top: 1px solid rgba(0, 0, 0, 0.164);
   border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+  padding: 0;
 }
 
 .darkBlueWeather {
@@ -200,15 +215,36 @@ a:hover {
 .smallBaseLeft {
   position: relative;
   top: 10px;
-  left: -56px;
+  left: -59px;
 }
 
 .cityBold {
   font-weight: 600;
 }
 
-.gitHubLink {
+.footerLink {
   font-size: 13px;
-  text-transform: uppercase;
   font-weight: 500;
+}
+.gitLink,
+.netLink {
+  color: cadetblue;
+}
+
+.symbolUnits {
+  position: relative;
+  line-height: 1;
+  top: 18px;
+  left: -1px;
+}
+
+.numberTemperature {
+  line-height: 1;
+  margin-left: 29px;
+}
+
+.mainTemper {
+  justify-content: center !important;
+  display: flex !important;
+  margin-top: 1px;
 }

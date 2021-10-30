@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    <title>Kirsten's Weather App</title>
+    <title>Kirstface's Weather App</title>
     <script src="https://kit.fontawesome.com/fe9f9d4197.js" crossorigin="anonymous"></script>
 
     <link
@@ -27,6 +27,7 @@
 
     <div class="col-md-9">
       <div class="card">
+        
         <h4 class="card-header">
 
 <div class="container">
@@ -67,42 +68,77 @@
                   
             <h3 class="card-titleTwo">
               <span class="dateHeadClass" id="date-head">
-              </span> 
+              </span>
               <span id="time-date">
               </span>
             </h3>
-          <h5 class="card-title" id="weather-description">
-            
-          </h5>
+          <h5> <div class="cityBold" id="city-title"></div></h5>
+
           <p class="card-text">
-    <div class="container tempContainer">
+    <div class="row">
+      <div class="col-4">
+      </div>
+      <div class="col-4">
+        <div class="mainTemper">
+<span class="numberTemperature">
+<h1 id="main-number-temp">
+        
+      </h1>
+</span>
+<span class="symbolUnits">
+  <h6>
+        <a href="#" id="celsius-symbol">
+          °C
+        </a>
+          | 
+          <a href="#" id="fahrenheit-symbol">
+            °F
+          </a>
+        </h6>
+</span>
+      </div>
+      <div class="col-4">
+      </div>
+
+    </div>
+    
+           <!-- <div class="container tempContainer">
   <div class="row">
     <div class="col-4">
 
     </div>
     <div class="col-4 mainTemp">
-      <h1 id="main-number-temp">
+     <h1 id="main-number-temp">
         
-      </h1>
-    </div>
-    <div class="col-4 rightTemp">
-      <h6 class="tempText">
-        <!--<a href="#" id="celsius-symbol">-->
+      </h1><h6 class="celfahTemp">
+        <a href="#" id="celsius-symbol">
           °C
-        <!--</a>-->
-          <!--| 
+        </a>
+          | 
           <a href="#" id="fahrenheit-symbol">
             °F
-          </a>-->
+          </a>
+        </h6>
+    </div>
+    <div class="col-4 rightTemp">
+     <h6 class="tempText">
+        <a href="#" id="celsius-symbol">
+          °C
+        </a>
+          | 
+          <a href="#" id="fahrenheit-symbol">
+            °F
+          </a>
         </h6>
     </div>
   </div>
-</div>
+</div>-->
                 
                   
                  
-                  <h5> <div class="cityBold" id="city-title"></div></h5>
-          <br />
+                  <h5 class="card-title" id="weather-description">
+          </h5>
+    <br />
           
             <div class ="container smallBaseFooter">
               <div class="row">
@@ -166,7 +202,7 @@
     <br />
     <br />
 
-    <div class="gitHubLink"><a href="https://github.com/Kirstface/weather-app">Kirstface's Weather App on GitHub</a></div>
+    <div class="footerLink"><a href="https://github.com/Kirstface/weather-app" class="gitLink">Open-sourced code</a> by Kirstface on GitHub. Hosted by <a href="https://www.netlify.com/" class="netLink">Netlify</a>.</div>
     <script src="src/script.js"></script>
   </body>
 </html>
